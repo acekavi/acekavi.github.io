@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 812">
+  <defs>
+    <style>
+      .b5ea5399-477f-4c9e-9150-db6bd54b770a{fill:url(#ba37f27a-cf33-452e-ad93-6d5f4084b983);}
+    </style>
+    <linearGradient x1="-227" y1="512" x2="1409" y2="-254" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e1b18"/>
+      <stop offset="0.23" stop-color="#411c20"/>
+      <stop offset="0.58" stop-color="#701e2a"/>
+      <stop offset="0.85" stop-color="#8d1f31"/>
+      <stop offset="1" stop-color="#981f33"/>
+    </linearGradient>
+  </defs>
+  <title>
+    Asset 1
+  </title>
+  <g data-name="Layer 2">
+    <g data-name="Layer 2">
+      <path class="b5ea5399-477f-4c9e-9150-db6bd54b770a" d="M1296 0s-262 236-507 276-344 2-452-28S113 315 76 481 0 812 0 812V0Z"/>
+    </g>
+  </g>
+</svg>

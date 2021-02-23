@@ -1,10 +1,19 @@
 import React from "react";
-import AboutMe from "./pages/AboutMe"
+
+//Components
+import Nav from "./components/navBar";
+
+//Pages
+import Home from "./pages/Home";
+//Global Styles
+import GlobalStyles from "./components/globalStyles";
 
 function App() {
   return (
     <div className="App">
-      <AboutMe/>
+      <GlobalStyles />
+      <Nav />
+      <Home />
     </div>
   )
 }
