@@ -7,6 +7,7 @@ import Nav from "./components/navBar";
 //Pages
 import Home from "./pages/Home";
 import Designs from "./pages/Designs";
+import Projects from "./pages/Projects";
 
 //Global Styles
 import GlobalStyles from "./components/globalStyles";
@@ -23,6 +24,10 @@ function App() {
 
         <Route path="/designs">
           <Designs />
+        </Route>
+
+        <Route path="/projects">
+          <Projects />
         </Route>
       </Switch>
     </div>

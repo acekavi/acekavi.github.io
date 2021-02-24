@@ -8,15 +8,15 @@ import Eminem from "../img/Designs/eminem.png";
 export const DesignState = () => {
   return [
     {
-        title: "Someone Somewhere",
+        title: "Elegance",
         mainImg: GirlWithGlasses,
-        description: "A vector of a random girl I met. Drew this to learn about detailing in vectors.",
+        description: "A detailed vector artwork of a girl using illustrator.",
         behance: "https://www.behance.net/gallery/107181275/Just-a-random-Girl",
     },
     {
         title: "Portrait",
         mainImg: Portrait,
-        description: "A minimalistic portrait based on myself.",
+        description: "A minimalistic vector artwork using illustrator.",
         behance: "https://www.behance.net/gallery/106729525/Sinner",
     },
     {
@@ -26,9 +26,9 @@ export const DesignState = () => {
         behance: "https://www.behance.net/gallery/106835273/Limbo",
     },
     {
-      title: "Biggest fan, Stan.",
+      title: "Eminem",
       mainImg: Eminem,
-      description: "Posturized vector artwork using Illustrator.",
+      description: "Truly yours, your biggest fan. This is Stan",
       behance: "https://www.behance.net/gallery/106966899/EMINEM",
   },
   ];

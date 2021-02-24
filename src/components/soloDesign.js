@@ -19,8 +19,12 @@ const SoloDesign = ({currentDesign})=> {
                 onMouseMove={({ clientX: x, clientY: y }) => setProps({ xys: calc(x, y) })}
                 onMouseLeave={() => setProps({ xys: [0, 0, 1] })}
                 style={{ transform: props.xys.interpolate(trans) }}>
-                <div className="img-div" style={{backgroundImage: `url(${currentDesign.mainImg})`}}>
-                </div>
+                <a className="img-div" 
+                    rel="noopener noreferrer" 
+                    href={currentDesign.behance} 
+                    target="_blank" 
+                    style={{backgroundImage: `url(${currentDesign.mainImg})`}}>
+                </a>
                 <h3>{currentDesign.title}</h3>
                 <h4>{currentDesign.description}</h4>
 
@@ -43,7 +47,7 @@ const StyledCard = styled.div`
         width: 17rem;
         height: 25rem;
         background: #111;
-        border-radius: 0 0 3rem 3rem;
+        border-radius: 0 0 1.5rem 1.5rem;
         border: 0.5rem solid #2b2b2b;
         display: flex;
         flex-direction: column;
@@ -59,13 +63,12 @@ const StyledCard = styled.div`
             box-shadow: none;
             object-fit: cover;
             background-size: cover;
-            background-position: center; 
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         h4{
-            hyphens: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
             width: 15rem;
         }
 
@@ -73,6 +76,11 @@ const StyledCard = styled.div`
             text-decoration: none;
             color: #ffffff;
             margin-bottom:5px;
+            transition: all 1s ease-out;
+
+            &:hover{
+                color: #d90429;
+            }
         }
     }
 `;

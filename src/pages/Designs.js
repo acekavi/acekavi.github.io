@@ -12,7 +12,7 @@ import {MainLayout} from '../Styles';
 
 const Designs = ()=> {
     const [Design, setDesign] = useState(DesignState);
-
+    
     return(
         <StyledDesigns>
             <StyledHeader>
@@ -22,7 +22,7 @@ const Designs = ()=> {
             <Slider
 			activeIndex={0}
 			slidesAtOnce={1}
-			// auto={7500}
+			auto={7500}
 			hasBullets
             hasArrows
 		    >

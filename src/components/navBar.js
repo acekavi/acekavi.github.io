@@ -11,7 +11,7 @@ const nav = () => {
                     <Link to="/designs">Designs</Link>
                 </li>
                 <li>
-                    <Link to="/">Projects</Link>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li>
                     <Link to="/">About Me</Link>
@@ -61,7 +61,7 @@ const StyledNav = styled.nav`
                     height: 2px;
                     top: 1.2em;
                     left: 1px;
-                    background-color: #003554;
+                    background-color: #ef233c;
                     visibility: hidden;
                     transition: all 0.4s ease-in-out;
                     transform: scaleX(0);
