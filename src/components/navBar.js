@@ -1,21 +1,23 @@
 import styled from 'styled-components';
 
+import {Link} from "react-router-dom";
+
 const nav = () => {
     return(
         <StyledNav>
-            <h1><a id="logo" href="#">Portfolio</a></h1>
+            <h1><Link id="logo" to="/">Portfolio</Link></h1>
             <ul>
                 <li>
-                    <a href="#">Designs</a>
+                    <Link to="/designs">Designs</Link>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <Link to="/">Projects</Link>
                 </li>
                 <li>
-                    <a href="#">About Me</a>
+                    <Link to="/">About Me</Link>
                 </li>
                 <li>
-                    <a href="#"><span>Hire me!</span></a>
+                    <Link to="/"><span>Hire me!</span></Link>
                 </li>
             </ul>
         </StyledNav>
@@ -67,9 +69,9 @@ const StyledNav = styled.nav`
 
                 &:hover::after {
                     visibility: visible;
-                    -webkit-transform: scaleX(1);
                     transform: scaleX(1);
                 }
+
             }
         }
     }

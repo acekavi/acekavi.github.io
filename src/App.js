@@ -1,10 +1,13 @@
 import React from "react";
+import {Switch, Route} from "react-router-dom";
 
 //Components
 import Nav from "./components/navBar";
 
 //Pages
 import Home from "./pages/Home";
+import Designs from "./pages/Designs";
+
 //Global Styles
 import GlobalStyles from "./components/globalStyles";
 
@@ -13,7 +16,15 @@ function App() {
     <div className="App">
       <GlobalStyles />
       <Nav />
-      <Home />
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+
+        <Route path="/designs">
+          <Designs />
+        </Route>
+      </Switch>
     </div>
   )
 }
